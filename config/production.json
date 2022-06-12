@@ -1,0 +1,6 @@
+{
+	"mongoURI": "mongodb+srv://jinhlee19:oTObV3itLfr26e44@devconnector.iixhl.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+	"jwtSecret": "mysecrettoken",
+	"githubClientId": "ca097625fb7ad3cd3498",
+	"githubSecret": "e6da98f0e01851abae729a3176b40651f0ba1c6d"
+}
