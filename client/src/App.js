@@ -15,7 +15,6 @@ import Profile from './components/profile/Profile';
 import PrivateRoute from './routing/PrivateRoute';
 import Posts from './components/posts/Posts';
 import Post from './components/post/Post';
-import Test from './components/layout/Test';
 import './App.css';
 
 // Redux
@@ -52,7 +51,6 @@ const App = () => {
 						<Route path="/add-education" element={<PrivateRoute component={AddEducation} />} />
 						<Route path="/posts" element={<PrivateRoute component={Posts} />} />
 						<Route path="/posts/:id" element={<PrivateRoute component={Post} />} />
-						<Route path="/test" element={<Test />} />
 					</Routes>
 				</Fragment>
 			</Router>
